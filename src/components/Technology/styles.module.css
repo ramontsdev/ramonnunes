@@ -1,0 +1,39 @@
+.techContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-bottom: 0.7rem;
+}
+  
+.techCircle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 7rem;
+  height: 7rem;
+
+  background: yellow;
+
+  border-radius: 50%;
+}
+  
+.techHeading{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+
+  margin: 0;
+}
+  
+.techContent{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+
+  margin: 0;
+
+  text-align: center;
+}
