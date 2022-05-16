@@ -17,7 +17,6 @@ export default function Index() {
       </div>
 
       <main className={styles.main}>
-
         {
           technologies.map((tech, index) => (
             <Technology
@@ -27,7 +26,6 @@ export default function Index() {
             />
           ))
         }
-
       </main>
     </div>
   )
